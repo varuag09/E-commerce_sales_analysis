@@ -120,7 +120,7 @@ fig.update_layout(title_text='Profit Analysis by Category', title_font=dict(size
 
 fig.show()
 ```
-![E-commerce]
+![E-commerce](https://github.com/varuag09/E-commerce_sales_analysis/blob/main/Profit_Analysis_by_category.png)
 ## Profit Analysis by Sub-Category
 ```python
 profit_by_subcategory = data.groupby('Sub-Category')['Profit'].sum().reset_index()
@@ -131,6 +131,7 @@ fig = px.bar(profit_by_subcategory,
 
 fig.show()
 ```
+![E-commerce]()
 ## Sales and Profit Analysis by Customer segment
 ```python
 sales_profit_by_segment = data.groupby('Segment').agg({'Sales':'sum','Profit':'sum'}).reset_index()
@@ -152,12 +153,14 @@ fig.update_layout(title='Sales and Profit Analysis by Customer Segment',
 
 fig.show()
 ```
+![E-commerce]()
 ## Analyse Sales-to-Profit Ratio
 ```python
 sales_profit_by_segment = data.groupby('Segment').agg({'Sales': 'sum', 'Profit': 'sum'}).reset_index()
 sales_profit_by_segment['Sales_to_Profit_Ratio'] = sales_profit_by_segment['Sales'] / sales_profit_by_segment['Profit']
 print(sales_profit_by_segment[['Segment', 'Sales_to_Profit_Ratio']])
 ```
+![E-commerce]()
 
 
 ## 👤 Author

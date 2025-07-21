@@ -1,7 +1,4 @@
 # E-commerce_sales_analysis
-# Python script to generate README.md for GitHub
-
-readme_content = """# 📊 E-commerce Sales Analysis
 
 This project performs **Exploratory Data Analysis (EDA)** on an e-commerce sales dataset using **Python**, **Pandas**, and **Plotly**.  
 The aim is to uncover insights into sales trends, customer behavior, and category-wise performance.

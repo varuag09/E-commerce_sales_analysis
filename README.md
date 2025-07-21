@@ -93,7 +93,7 @@ fig = px.bar(sales_by_subcategory,
             title='Sales Analysis by Sub-Category')
 fig.show()
 ```
-![E-commerce](https://github.com/varuag09/E-commerce_sales_analysis/blob/main/Sales_analysis_category.png)
+![E-commerce](https://github.com/varuag09/E-commerce_sales_analysis/blob/main/Sales_analysis_Sub_category.png)
 ## Monthly Profit Analysis
 ```python
 profit_by_month = data.groupby('Order Month')['Profit'].sum().reset_index()

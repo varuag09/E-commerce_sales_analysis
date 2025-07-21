@@ -19,7 +19,6 @@ The goal is to analyze sales trends, category performance, and extract business 
 - Python 
 - Pandas  
 - Plotly  
-- Seaborn (for correlation heatmaps)  
 - Jupyter Notebook  
 
 ## 📊 Importing necessary Libraries

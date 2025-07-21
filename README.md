@@ -103,6 +103,7 @@ fig = px.line(profit_by_month,
              title='Monthly Profit Analysis')
 fig.show()
 ```
+![E-commerce](https://github.com/varuag09/E-commerce_sales_analysis/blob/main/Monthly_profit_analysis.png)
 
 ## Profit Analysis by Category
 ```python
@@ -119,6 +120,7 @@ fig.update_layout(title_text='Profit Analysis by Category', title_font=dict(size
 
 fig.show()
 ```
+![E-commerce]
 ## Profit Analysis by Sub-Category
 ```python
 profit_by_subcategory = data.groupby('Sub-Category')['Profit'].sum().reset_index()

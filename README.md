@@ -131,7 +131,7 @@ fig = px.bar(profit_by_subcategory,
 
 fig.show()
 ```
-![E-commerce]()
+![E-commerce](https://github.com/varuag09/E-commerce_sales_analysis/blob/main/Profit_analysis_by_sub-category..png)
 ## Sales and Profit Analysis by Customer segment
 ```python
 sales_profit_by_segment = data.groupby('Segment').agg({'Sales':'sum','Profit':'sum'}).reset_index()

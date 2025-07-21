@@ -16,7 +16,7 @@ The goal is to analyze sales trends, category performance, and extract business 
 - Correlation Heatmap  
 
 ## 🛠️ Technologies & Libraries Used
-- Python 3.x  
+- Python 
 - Pandas  
 - Plotly  
 - Seaborn (for correlation heatmaps)  

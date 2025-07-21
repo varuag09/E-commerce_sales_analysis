@@ -152,11 +152,11 @@ fig.show()
 sales_profit_by_segment = data.groupby('Segment').agg({'Sales': 'sum', 'Profit': 'sum'}).reset_index()
 sales_profit_by_segment['Sales_to_Profit_Ratio'] = sales_profit_by_segment['Sales'] / sales_profit_by_segment['Profit']
 print(sales_profit_by_segment[['Segment', 'Sales_to_Profit_Ratio']])
-``
+```
 
 
 ## 👤 Author
-- [Your Name]
+Gaurav Kumar
 
 
 

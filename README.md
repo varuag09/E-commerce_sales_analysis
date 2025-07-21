@@ -160,7 +160,7 @@ sales_profit_by_segment = data.groupby('Segment').agg({'Sales': 'sum', 'Profit':
 sales_profit_by_segment['Sales_to_Profit_Ratio'] = sales_profit_by_segment['Sales'] / sales_profit_by_segment['Profit']
 print(sales_profit_by_segment[['Segment', 'Sales_to_Profit_Ratio']])
 ```
-![E-commerce]()
+![E-commerce](https://github.com/varuag09/E-commerce_sales_analysis/blob/main/Sales_to_profit.png)
 
 
 ## 👤 Author

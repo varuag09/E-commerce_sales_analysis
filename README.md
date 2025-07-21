@@ -13,7 +13,6 @@ The goal is to analyze sales trends, category performance, and extract business 
 - Creation of Time-Based Features (Month, Year, Weekday)  
 - Monthly Sales Trend Analysis  
 - Sales Analysis by Product Category  
-- Correlation Heatmap  
 
 ## 🛠️ Technologies & Libraries Used
 - Python 

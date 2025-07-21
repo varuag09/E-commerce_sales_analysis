@@ -26,3 +26,6 @@ The aim is to uncover insights into sales trends, customer behavior, and categor
 - Seaborn (for heatmaps)
 - Jupyter Notebook
 
+## Author
+Gaurav Kumar
+

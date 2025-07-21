@@ -22,18 +22,21 @@ The goal is to analyze sales trends, category performance, and extract business 
 - Seaborn (for correlation heatmaps)  
 - Jupyter Notebook  
 
-## 📊 Sample Code Snippets
+## 📊 Importing necessary Libraries
 
 ```python
 # Importing Libraries
 import pandas as pd
 import plotly.express as px
+import plotly.graph_objects as go
 import plotly.io as pio
+import plotly.colors as colors
+pio.templates.default="plotly_white"
+```
 
-pio.templates.default = "plotly_white"
-
-# Load Data
+# Load Data and view
 data = pd.read_csv("Sample - Superstore.csv", encoding='latin-1')
+data.head()
 
 # Data Cleaning
 data['Order Date'] = pd.to_datetime(data['Order Date'])

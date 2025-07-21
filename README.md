@@ -18,7 +18,6 @@ The aim is to uncover insights into sales trends, customer behavior, and categor
 ## 📊 Visualizations Included
 - Line Charts for Monthly Sales
 - Bar Charts for Category-wise Performance
-- Correlation Heatmaps
 
 ## 🛠️ Technologies Used
 - Python 3.x
@@ -27,7 +26,3 @@ The aim is to uncover insights into sales trends, customer behavior, and categor
 - Seaborn (for heatmaps)
 - Jupyter Notebook
 
-## 💻 How to Use
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/ecommerce-sales-analysis.git

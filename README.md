@@ -56,7 +56,7 @@ data['Order Date of Week']=data['Order Date'].dt.dayofweek
 ```
 
 ## Monthly Sales Analysis
-![E-commerce](https://github.com/varuag09/E-commerce_sales_analysis/blob/main/Monthly_sales_analysis.png)
+
 ```python
 sales_by_month = data.groupby('Order Month')['Sales'].sum().reset_index()
 fig = px.line(sales_by_month,
@@ -65,6 +65,7 @@ fig = px.line(sales_by_month,
              title='Monthly Sales Analysis')
 fig.show()
 ```
+![E-commerce](https://github.com/varuag09/E-commerce_sales_analysis/blob/main/Monthly_sales_analysis.png)
 
 ## Sales Analysis by Category
 ```python
@@ -81,6 +82,7 @@ fig.update_layout(title_text='Sales Analysis by Category', title_font=dict(size=
 
 fig.show()
 ```
+![E-commerce](https://github.com/varuag09/E-commerce_sales_analysis/blob/main/Sales_analysis_category.png)
 
 ## Sales Analysis by Sub-Category
 ```python

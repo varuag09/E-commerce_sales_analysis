@@ -153,7 +153,7 @@ fig.update_layout(title='Sales and Profit Analysis by Customer Segment',
 
 fig.show()
 ```
-![E-commerce]()
+![E-commerce](https://github.com/varuag09/E-commerce_sales_analysis/blob/main/Sales%20and%20profit%20by%20customer%20segment.png)
 ## Analyse Sales-to-Profit Ratio
 ```python
 sales_profit_by_segment = data.groupby('Segment').agg({'Sales': 'sum', 'Profit': 'sum'}).reset_index()

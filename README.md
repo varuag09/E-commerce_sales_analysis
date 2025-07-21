@@ -56,6 +56,7 @@ data['Order Date of Week']=data['Order Date'].dt.dayofweek
 ```
 
 ## Monthly Sales Analysis
+![E-commerce](https://github.com/varuag09/library_project/blob/main/66982lms.webp)
 ```python
 sales_by_month = data.groupby('Order Month')['Sales'].sum().reset_index()
 fig = px.line(sales_by_month,
